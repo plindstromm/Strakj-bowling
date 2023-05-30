@@ -5,12 +5,8 @@ describe('template spec', () => {
     cy.get('.top__logo').should('be.visible')
     cy.get('.top__title').should('be.visible')
     cy.get('.booking-info__heading').should('have.text', 'When, WHAT & Who');
-   
-
   });
   
-
-
   it('should be able to fill out input fields and add shoes', () => {
     cy.get('.input__field').eq(0).type('1994-04-03');
     cy.get('.input__field').eq(1).type('18:00');
@@ -37,6 +33,10 @@ describe('template spec', () => {
     cy.get('.navigation__icon').click();
      cy.wait(1000);
      cy.get('.navigation__link').eq(0).click();
+  });
+
+   it('should show an error if the input fields are not filled out', () => {
+  
   });
 
   afterEach(() => {
