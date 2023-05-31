@@ -13,8 +13,10 @@ Acceptaskriterier.
 
 Userstory 3: Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
 Acceptaskriterier.
-1. 
+1. Om användaren matat in fel storlek ska det finnas en "Ta bort" -knapp för att ångra valet. 
+2. Systemet ska uppdatera ändringarna för valda skostorlekar
 
 
-Userstory 4:
+Userstory 4: Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
 Acceptaskriterier.
+1. När användaren fyllt i all nödvänding information ska personen kunna trycka på en "Skicka bokning" -knapp ()
