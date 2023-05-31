@@ -19,4 +19,11 @@ Acceptaskriterier.
 
 Userstory 4: Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
 Acceptaskriterier.
-1. När användaren fyllt i all nödvänding information ska personen kunna trycka på en "Skicka bokning" -knapp ()
+1. När användaren fyllt i all nödvänding information ska personen kunna trycka på en "Skicka bokning" -knapp (strIIIIIike!). 
+2. Systemet genererar ett unikt bokningsnummer som bekräftelse. 
+3. Systemet beräknar totalsumman baserat på antal spelare och banor, som visas för användaren. 
+
+Userstory 5: Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
+Acceptaskriterier.
+1. 
+
