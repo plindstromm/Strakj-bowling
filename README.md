@@ -25,7 +25,7 @@ Acceptaskriterier:
 
 Userstory 5: Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
 Acceptaskriterier:
-1. Användaren ska enkelt kunna vanigera mellan boknings och bekräftningssida med häljp av en hambuger-menu. 
+1. Användaren ska enkelt kunna navigera mellan boknings och bekräftningssida med häljp av en hambuger-menu. 
 2. När användaren klickar på menyn kommer en vy med länkar till varje sida upp. 
 
 
