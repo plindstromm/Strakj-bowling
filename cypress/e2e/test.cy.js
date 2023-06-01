@@ -8,10 +8,10 @@ describe('template spec', () => {
   });
   
   it('should be able to fill out input fields and add shoes', () => {
-    cy.get('.input__field').eq(0).type('1994-04-03');
-    cy.get('.input__field').eq(1).type('18:00');
-    cy.get('.input__field').eq(2).type('1');
-    cy.get('.input__field').eq(3).type('3');
+    cy.get('.input__field').eq(0).type('1994-04-03').should('have.value', '1994-04-03');
+    cy.get('.input__field').eq(1).type('18:00').should('have.value', '18:00');
+    cy.get('.input__field').eq(2).type('1').should('have.value', '1');
+    cy.get('.input__field').eq(3).type('2').should('have.value', '2');
     cy.get('.shoes__button').first().click();
      cy.wait(1000);
     cy.get('.shoes__button--small').first().click();
@@ -36,7 +36,9 @@ describe('template spec', () => {
   });
 
    it('should show an error if the input fields are not filled out', () => {
-  
+    cy.get('.input__field').eq(0).type('2023-03-30');
+    cy.get('.booking__button').click();
+    cy.get('.error-message').should('be.visible');
   });
 
   afterEach(() => {
