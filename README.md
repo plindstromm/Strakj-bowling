@@ -29,6 +29,6 @@ Acceptaskriterier:
 2. När användaren klickar på menyn kommer en vy med länkar till varje sida upp. 
 
 
-Userstory 5: Som användare vill jag få information om någon nödvandig information inte fyllts i
+Userstory 5: Som användare vill jag få information om någon nödvandig information inte fyllts i. 
 Acceptaskriterier:
 1. Ett felmeddelande sysns på skärmen om informationen inte fyllts i korrekt. 
