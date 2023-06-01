@@ -26,7 +26,7 @@ describe('template spec', () => {
   });
 
   it('should be able to navigate between the views', () => {
-    cy.get('.navigation__icon').click();
+    cy.get('.navigation__icon').click().should('be.visible');
     cy.wait(1000);
     cy.get('.navigation__link').eq(1).click();
      cy.wait(1000);
