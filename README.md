@@ -31,4 +31,5 @@ Acceptaskriterier:
 
 Userstory 5: Som användare vill jag få information om någon nödvandig information inte fyllts i. 
 Acceptaskriterier:
-1. Ett felmeddelande sysns på skärmen om informationen inte fyllts i korrekt. 
+1. Ett felmeddelande sysns på skärmen om ett eller flera input-fält ej fyllts i korrekt.
+2. Ett felmeddelande sysns på skärmen om skor/skostorlek inte fyllts i korrekt. 
