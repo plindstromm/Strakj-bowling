@@ -8,7 +8,7 @@ describe('test spec', () => {
     });
     
     it('should show an error if one or more of input fields are not filled out', () => {
-        cy.get('.input__field').eq(0).type('2023-03-30');
+        cy.get('.input__field').eq(0).type('2023-03-30').should('have.value', '2023-03-30');
         cy.get('.booking__button').click();
         cy.get('.error-message').should('be.visible');
       });
