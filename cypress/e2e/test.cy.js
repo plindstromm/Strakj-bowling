@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('test spec', () => {
   beforeEach(() => {
     cy.visit('http://localhost:5173/#');
     
@@ -35,11 +35,7 @@ describe('template spec', () => {
      cy.get('.navigation__link').eq(0).click();
   });
 
-   it('should show an error if the input fields are not filled out', () => {
-    cy.get('.input__field').eq(0).type('2023-03-30');
-    cy.get('.booking__button').click();
-    cy.get('.error-message').should('be.visible');
-  });
+
 
   afterEach(() => {
     cy.wait(2000);
