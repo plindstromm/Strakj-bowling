@@ -3,7 +3,7 @@ describe('test spec', () => {
     cy.visit('http://localhost:5173/#');
     
     cy.get('.top__logo').should('be.visible')
-    cy.get('.top__title').should('be.visible')
+    cy.get('.top__title').should('be.visible').should('have.text', 'Booking')
     cy.get('.booking-info__heading').should('have.text', 'When, WHAT & Who');
   });
   
